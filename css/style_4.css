@@ -1,0 +1,109 @@
+﻿body
+{
+	background: #F8EDED;
+	width: 100%;
+	height: 100%;
+}
+
+h2{
+	position: absolute;
+width: 197px;
+height: 72px;
+left: 56px;
+top: 37px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 26px;
+
+color: #DBBAAE;
+}
+
+.popup {
+    position: absolute;
+    top: 20px;
+    left: 290px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: Archivo;
+    font-weight: bold;
+    color:  #DDCBCB;
+  }
+  
+  .popup .popuptext {
+    visibility: hidden;
+    display: inline-block;
+    width: 450px;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    text-align: left;
+    font-size: 24px;
+    padding: 150px 0px 0px 59px;
+    position: absolute;
+    left:-320px;
+    top: -40px;
+    z-index: 1;
+  }
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+#gravar{
+	
+	position: absolute;
+	top: 100%;
+	left: 56px;
+	border: none;
+	background-color: transparent;
+	font-size: 24px;
+	font-family: Archivo;
+	font-weight: bold;
+	color: #DBBAAE;
+	
+}
+
+#delete{
+	position: absolute;
+	top: 100%;
+	left: 106px;
+	border: none;
+	background-color: transparent;
+	font-size: 24px;
+	font-family: Archivo;
+	font-weight: bold;
+	color:  #DBBAAE;
+	
+}
+
+footer {
+  position: relative;
+  font-family: Archivo;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 10px;
+  top: 90%;
+  left: 59px;
+  color: #D10000;
+  }
+a {
+color: #D10000;
+text-decoration: none;
+}
